@@ -62,3 +62,34 @@ nav a {
   pointer-events: none;
   opacity: 0.6;
 }
+.user-panel-container {
+  position: relative;
+}
+
+.user-panel {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.logout-btn {
+  background-color: #d0342c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 5px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: #b02824;
+}

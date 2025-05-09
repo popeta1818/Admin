@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 function Sidebar() {
@@ -6,19 +7,19 @@ function Sidebar() {
     <aside className="sidebar">
       <h3>Inventario</h3>
       <ul>
-        <li><a href="#">Productos</a></li>
-        <li><a className="active" href="#">Agregar producto</a></li>
-        <li><a href="#">Actualizar inventario</a></li>
+      <li><Link to="/admin/productos">Productos</Link></li>
+      <li><Link to="/admin/agregar-producto">Agregar producto</Link></li>
+        <li><Link to="/admin/actualizar-inventario">Actualizar inventario</Link></li>
       </ul>
       <h3>Ventas</h3>
       <ul>
-        <li><a href="#">Clientes</a></li>
-        <li><a href="#">Órdenes de venta</a></li>
+        <li><Link to="#">Clientes</Link></li>
+        <li><Link to="#">Órdenes de venta</Link></li>
       </ul>
       <h3>Compras</h3>
       <ul>
-        <li><a href="#">Proveedores</a></li>
-        <li><a href="#">Órdenes de compra</a></li>
+        <li><Link to="#">Proveedores</Link></li>
+        <li><Link to="#">Órdenes de compra</Link></li>
       </ul>
     </aside>
   );

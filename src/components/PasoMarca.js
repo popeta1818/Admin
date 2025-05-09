@@ -29,10 +29,6 @@ const PasoMarca = () => {
             <input type="text" placeholder="Ingrese marca" required />
           </div>
 
-          <div className="form-group">
-            <label>Color*</label>
-            <input type="text" placeholder="Ingrese color" required />
-          </div>
 
           <div className="form-group">
             <label>Material*</label>

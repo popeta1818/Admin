@@ -18,7 +18,7 @@ const DetallesProducto = () => {
       <div className="form-card">
         <form className="form-grid">
           <div className="form-group">
-            <label>Category*</label>
+            <label>categoría*</label>
             <select required>
               <option value="">Selecciona una categoría</option>
               <option value="proteina">Proteína</option>
